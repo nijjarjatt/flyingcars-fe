@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
