@@ -1,0 +1,27 @@
+<div class="row">
+  <h2>New and Used Cars at FlyingCars.ca</h2>
+  <hr />
+</div>
+
+<div class="row text-align-center" *ngIf="!callError">
+  <label for="sortby">Sort By: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <select [(ngModel)]="sortByType" style="text-align: center" name="sortby">
+      <option value="name">Name</option>
+      <option value="available">Availability</option>
+    </select>
+
+    <hr />
+</div>
+
+<div class="row" *ngIf="!callError">
+  <ul class="cars">
+    <li *ngFor="let car of cars | orderByList:sortByType" class="car coloumn-12">
+        <app-car [car]="car"></app-car>
+    </li>
+  </ul>
+</div>
+
+
+<div class="row text-align-center" *ngIf="callError">
+  <p>Error loading data!!!</p>
+</div>

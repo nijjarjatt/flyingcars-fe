@@ -1,0 +1,8 @@
+.car{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+}

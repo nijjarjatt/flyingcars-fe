@@ -1,0 +1,22 @@
+img {
+    float: left;
+    margin: 0px 10px 10px;
+}
+
+h3 {
+    color: #14709e;
+    margin-top: 0px;
+}
+
+button {
+    display: block;
+    border: 1px solid #14709e;
+    border-radius: 3px;
+    padding: 5px 20px;
+    background-color: #14709e;
+    color: #fff;
+    max-width: 150px;
+    margin-left: 0px;
+    border: 0px;
+    margin: 20px 0px;
+}

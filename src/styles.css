@@ -1,6 +1,82 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Georgia, serif";
+    background: #dcdcdc;
+}
+
+ul, li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: left;
+    margin: 10px 0px 7px;
+}
+
+p {
+    margin: 5px 0px 3px;
+}
+
+div {
+    box-sizing: border-box;
+}
+
 .container {
     padding-left: 0px;
     padding-right: 0px;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1000px;
+    background: #ffffff;
+}
+
+.row {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+
+.row:after {
+    clear: both;
+}
+
+.coloumn-2 {
+    float: left;
+    width: 50%;
+}
+
+.coloumn-3 {
+    float: left;
+    width: 33.3333%;
+}
+
+.coloumn-4 {
+    float: left;
+    width: 25%;
+}
+
+.coloumn-8 {
+    float: left;
+    width: 75%;
+}
+
+.coloumn-12 {
+    float: left;
+    width: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+.text-align-center {
+    text-align: center;
 }

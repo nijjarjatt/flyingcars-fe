@@ -1,0 +1,15 @@
+<div class="coloumn-4">
+    <img width ="100px" src="{{car.img}}" alt="Car Image"/>
+</div>
+
+<div class="coloumn-8">
+    <h3>{{car.name}}</h3>
+
+    <p><strong>Model:</strong> {{car.model}}</p>
+    <p><strong>Make:</strong> {{car.make}}</p>
+    <p><strong>Year:</strong> {{car.year}}</p>
+    <p><strong>Availability:</strong> {{car.available}}</p>
+    <button *ngIf="car.available == 'In Dealership'">Buy this {{car.name}}</button>
+</div>
+
+<hr />
